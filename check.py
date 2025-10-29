@@ -19,7 +19,7 @@ def nangcap():
     if score >= upgrade_cost:
         score -= upgrade_cost
         level += 1
-        upgrade_cost = int(upgrade_cost * 1.5)
+        upgrade_cost = int(upgrade_cost * 1.21)
         textscore.value = f"Score = {score}"
         textlevel.value = f"Level = {level}"
         textupgrade.value = f"Upgrade Cost = {upgrade_cost}"
